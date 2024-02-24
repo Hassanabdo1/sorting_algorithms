@@ -7,9 +7,9 @@ void insertion_sort_deck_value(deck_node_t **deck);
 void sort_deck(deck_node_t **deck);
 
 /**
- * _strcmp - This compares two strings.
- * @s1: Is the first string to be compared.
- * @s2: Is the second string to be compared.
+ * _strcmp - This function helps compares two strings.
+ * @s1: rep the first string to be compared.
+ * @s2: rep the the second string to be compared.
  *
  * Return: Positive byte difference if s1 > s2
  *         0 if s1 == s2
@@ -31,7 +31,7 @@ int _strcmp(const char *s1, const char *s2)
 }
 
 /**
- * get_value - This function get the numerical value of a card.
+ * get_value - This function help get the numerical value of a card.
  * @card: represent a pointer to a deck_node_t card.
  *
  * Return: The numerical value of the card.
@@ -70,8 +70,9 @@ char get_value(deck_node_t *card)
 }
 
 /**
- * insertion_sort_deck_kind - This sort a deck of cards from spades to diamonds.
- * @deck: is a pointer to the head of a deck_node_t doubly-linked list.
+ * insertion_sort_deck_kind - This fuction sort a deck of cards from 
+ * spades to diamonds.
+ * @deck: This is a pointer to the head of a deck_node_t doubly-linked list.
  */
 
 void insertion_sort_deck_kind(deck_node_t **deck);
@@ -101,9 +102,9 @@ void insertion_sort_deck_kind(deck_node_t **deck)
 }
 
 /**
- * insertion_sort_deck_value - Sort a deck of cards sorted from
+ * insertion_sort_deck_value - Helps sort a deck of cards sorted from
  *                             spades to diamonds from ace to king.
- * @deck:Is a  pointer to the head of a deck_node_t doubly-linked list.
+ * @deck: A pointer to the head of a deck_node_t doubly-linked list.
  */
 
 void insertion_sort_deck_value(deck_node_t **deck);
@@ -135,9 +136,9 @@ void insertion_sort_deck_value(deck_node_t **deck)
 }
 
 /**
- * sort_decks - This sort a deck of cards from ace to king and
+ * sort_decks - Func that sort a deck of cards from ace to king and
  *             from spades to diamonds.
- * @deck: A pointer to the head of a deck_node_t doubly-linked list.
+ * @deck: Is a pointer to the head of a deck_node_t doubly-linked list.
  */
 
 void sort_deck(deck_node_t **deck);

@@ -23,8 +23,8 @@ typedef enum bool
  * struct listint_s - represent doubly linked list node
  *
  * @n: Is an integer stored in the node
- * @prev: represent a pointer to the previous element of the list
- * @next: represent a pointer to the next element of the list
+ * @prev: rep a pointer to the previous element of the list
+ * @next: rep a pointer to the next element of the list
  */
 typedef struct listint_s
 {

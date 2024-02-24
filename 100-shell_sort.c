@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
- * @a: Is the first integer to swap.
- * @b: Is the second integer to swap.
+ * swap_ints - This func swap two integers in an array.
+ * @a: This is the first integer to swap.
+ * @b: This is the second integer to swap.
  */
 
 void swap_ints(int *a, int *b);
@@ -17,10 +17,10 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * shell_sort - Sort an array of integers in ascending
+ * shell_sort - This func helps sort an array of integers in ascending
  *              order using the shell sort algorithm.
- * @array: Represents an array of integers.
- * @size: Represents the size of the array.
+ * @array: This rep an array of integers.
+ * @size: This rep the size of the array.
  *
  * Description: It uses the Knuth interval sequence.
  */

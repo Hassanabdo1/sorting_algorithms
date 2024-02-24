@@ -12,9 +12,9 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 void bitonic_sort(int *array, size_t size);
 
 /**
- * swap_ints - Helps swap two integers in an array.
- * @a: Is the first integer to swap.
- * @b: Is the second integer to swap.
+ * swap_ints - This helps swap two integers in an array.
+ * @a: rep the first integer to swap.
+ * @b: rep the second integer to swap.
  */
 void swap_ints(int *a, int *b)
 {
@@ -26,12 +26,13 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * bitonic_merge - This function Sort a bitonic sequence inside an array of integers.
- * @array: Is an array of integers.
- * @size: Is the size of the array.
- * @start: The starting index of the sequence in array to sort.
- * @seq: The size of the sequence to sort.
- * @flow: The direction to sort in.
+ * bitonic_merge - rep a function that Sort a bitonic sequence 
+ * inside an array of integers.
+ * @array: rep an array of integers.
+ * @size: rep the size of the array.
+ * @start: rep starting index of the sequence in array to sort.
+ * @seq: rep size of the sequence to sort.
+ * @flow: rep direction to sort in.
  */
 
 void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
@@ -56,12 +57,14 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
 }
 
 /**
- * bitonic_seq - It convert an array of integers into a bitonic sequence
- * @array: Is an array of integers.
- * @size: Is the size of the array.
- * @start: The starting index of a block of the building bitonic sequence.
- * @seq: The size of a block of the building bitonic sequence.
- * @flow: The direction to sort the bitonic sequence block in.
+ * bitonic_seq - This func convert an array of integers into a bitonic 
+ * sequence
+ * @array: rep an array of integers.
+ * @size: rep the size of the array.
+ * @start: Is the starting index of a block of the building bitonic 
+ * sequence.
+ * @seq: rep the size of a block of the building bitonic sequence.
+ * @flow: rep the direction to sort the bitonic sequence block in.
  */
 
 void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
@@ -87,8 +90,8 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 /**
  * bitonic_sorts - This sort an array of integers in ascending
  *                order using the bitonic sort algorithm.
- * @array: Is an array of integers.
- * @size: Is the size of the array.
+ * @array: rep an array of integers.
+ * @size: rep the size of the array.
  *
  * Description: Prints the array after each swap. Only works for
  * size = 2^k where k >= 0 (ie. size equal to powers of 2).

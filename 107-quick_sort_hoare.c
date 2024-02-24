@@ -6,9 +6,9 @@ void hoare_sort(int *array, size_t size, int left, int right);
 void quick_sort_hoare(int *array, size_t size);
 
 /**
- * swap_ints - This swap two integers in an array.
- * @a: Is the first integer to swap.
- * @b: The second integer to swap.
+ * swap_ints - This function helps swap two integers in an array.
+ * @a: rep the first integer to swap.
+ * @b: rep second integer to swap.
  */
 void swap_ints(int *a, int *b)
 {
@@ -20,12 +20,12 @@ void swap_ints(int *a, int *b)
 }
 
 /*
- * hoare_partition - This func orders a subset of an array of integers
- *                   according to the hoare partition scheme.
- * @array: Is the array of integers.
- * @size: Is the size of the array.
- * @left: Is the starting index of the subset to order.
- * @right: The ending index of the subset to order.
+ * hoare_partition - Is a function that orders a subset of an array
+  of integers according to the hoare partition scheme.
+ * @array: rep the array of integers.
+ * @size: rep the size of the array.
+ * @left: rep the starting index of the subset to order.
+ * @right: rephe ending index of the subset to order.
  *
  * Return: The final partition index.
  *
@@ -61,12 +61,12 @@ int hoare_partition(int *array, size_t size, int left, int right)
 }
 
 /**
- * hoare_sort - Helps implement the quicksort algorithm 
+ * hoare_sort - A func that helps implement the quicksort algorithm 
  * through recursion.
- * @array: An array of integers to sort.
- * @size: The size of the array.
- * @left: The starting index of the array partition to order.
- * @right: The ending index of the array partition to order.
+ * @array: rep an array of integers to sort.
+ * @size: rep the size of the array.
+ * @left: rep the starting index of the array partition to order.
+ * @right: rep the ending index of the array partition to order.
  *
  * Description: Uses the Hoare partition scheme.
  */
@@ -85,10 +85,10 @@ void hoare_sort(int *array, size_t size, int left, int right)
 }
 
 /**
- * quick_sort_hoares - This sort an array of integers in ascending
+ * quick_sort_hoares - This func sort an array of integers in ascending
  *                    order using the quicksort algorithm.
- * @array: Is an array of integers.
- * @size: Is the size of the array.
+ * @array: rep an array of integers.
+ * @size: rep the size of the array.
  *
  * Description: It uses the Hoare partition scheme. Prints
  * the array after each swap of two elements.

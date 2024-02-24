@@ -5,11 +5,12 @@ void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
 void cocktail_sort_list(listint_t **list);
 
 /**
- * swap_node_ahead - This swap a node in a listint_t doubly-linked list
- *                   list of integers with the node ahead of it.
- * @list: Is pointer to the head of a doubly-linked list of integers.
- * @tail: Is pointer to the tail of the doubly-linked list.
- * @shaker: Is a pointer to the current swapping node of the cocktail shaker algo.
+ * swap_node_ahead - A func that swaps a node in a listint_t 
+ * 					 doubly-linked list list of integers with 
+ * 					 the node ahead of it.
+ * @list: rep a pointer to the head of a doubly-linked list of integers.
+ * @tail: rep a pointer to the tail of the doubly-linked list.
+ * @shaker: rep a pointer to the current swapping node of the cocktail shaker algo.
  */
 
 void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
@@ -33,11 +34,11 @@ void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker)
 }
 
 /**
- * swap_node_behind - This function swap a node in a listint_t doubly-linked
+ * swap_node_behind - Func that swap a node in a listint_t doubly-linked
  *                    list of integers with the node behind it.
- * @list: Is a pointer to the head of a doubly-linked list of integers.
- * @tail: Is a pointer to the tail of the doubly-linked list.
- * @shaker: Is a pointer to the current swapping node of the cocktail
+ * @list: rep a pointer to the head of a doubly-linked list of integers.
+ * @tail: rep a pointer to the tail of the doubly-linked list.
+ * @shaker: rep a pointer to the current swapping node of the cocktail
  * 			shaker algo.
  */
 
@@ -62,10 +63,10 @@ void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker)
 }
 
 /**
- * cocktail_sort_list - Thia sorts a listint_t doubly-linked list of 
+ * cocktail_sort_list - Helps sorts a listint_t doubly-linked list of 
  * 						integers in ascending order using the 
  * 						cocktail shaker algorithm.
- * @list: Is a pointer to the head of a listint_t doubly-linked list.
+ * @list: rep a pointer to the head of a listint_t doubly-linked list.
  */
 
 void cocktail_sort_list(listint_t **list);
